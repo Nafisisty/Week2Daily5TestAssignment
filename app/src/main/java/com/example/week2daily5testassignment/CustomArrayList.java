@@ -13,12 +13,20 @@ public class CustomArrayList <T> {
         CustomArrayList<Integer> integerArrayList=new CustomArrayList<>();
         CustomArrayList<String> stringArrayList=new CustomArrayList<>();
 
-        integerArrayList.add(12);
-        integerArrayList.add(23);
-        integerArrayList.add(25);
+        integerArrayList.add(1);
+        integerArrayList.add(2);
+        integerArrayList.add(3);
 
         stringArrayList.add("Ricky");
+        stringArrayList.add("Nafis");
         stringArrayList.add("Joel");
+        stringArrayList.add("Albert");
+        stringArrayList.add("Brandon");
+        stringArrayList.add("Michel");
+        stringArrayList.add("Frank");
+        stringArrayList.add("Josh");
+
+
 
         System.out.println(integerArrayList+"  "+stringArrayList);
     }
